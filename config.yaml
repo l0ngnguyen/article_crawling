@@ -1,0 +1,45 @@
+db-connection-info:
+  username: 'root'
+  password: 'L%40ng99%40mysql'
+  server: 'localhost'
+  db_name: 'articleDB'
+
+categories:
+  - 'the-thao'
+  - 'thoi-su'
+  - 'the-gioi'
+  - 'phap-luat'
+  - 'kinh-doanh'
+  - 'van-hoa'
+  - 'suc-khoe'
+  - 'khoa-hoc'
+  - 'giai-tri'
+  - 'giao-duc'
+  - 'xe'
+
+labels:
+  - 'thế giới'
+  - 'thời sự'
+  - 'thể thao' 
+  - 'kinh doanh'
+  - 'pháp luật'
+  - 'sức khỏe'
+  - 'giáo dục'
+  - 'văn hóa'
+  - 'giải trí'
+
+output_dir: 'output/'
+dryrun_output_dir: 'dryrun_output/'
+
+output_filenames:
+  vectorizer: 'vectorizer.pickle'
+  labels: 'labels.csv'
+  X_matrix: 'X_matrix.npz'
+  model : 'model.pickle'
+  raw_data: 'raw_data.csv'
+  clean_data: 'clean_data.csv'
+  recommend: 'top10.json'
+
+stopwords: 'data/stopwords.txt'
+
+dryrun_mode: 1
